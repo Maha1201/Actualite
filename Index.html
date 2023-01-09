@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Pour rétrécir la page un peu (ajouter /div en bas) -->
+    <!-- <div class="w-full px-40 mx-auto max-w-8xl"> -->
+
+<!-- Barre de navigation -->
+<nav class = "flex items-center justify-between flex-wrap bg-gray-800 p-10">
+    <div class = "flex items-center flex-shrink-0 text-white mr-6">
+        <span class = "font-bold text-xl tracking-tight">ASC Actus</span>
+    </div>
+
+    <div class = "w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class = "text-base lg:flex-grow">
+            <a href="#" class = "block text-gray-200 lg:inline-block lg:mt-0 hover:text-white mr-5">Actualités</a>
+            <a href="#" class = "block text-gray-200 lg:inline-block lg:mt-0 hover:text-white mr-5">Équipe</a>
+            <a href="#" class = "block text-gray-200 lg:inline-block lg:mt-0 hover:text-white mr-5">Évènements</a>
+            <a href="#" class = "block text-gray-200 lg:inline-block lg:mt-0 hover:text-white">Contact</a>
+        </div>
+        <div>
+            <a href="#" class = "block text-black-200 inline-block mt-0 hover:text-gray-600 bg-gray-200 px-5 py-2 rounded-full">Se connecter</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Section présentation/slogan -->
+<section style="background-image: url('img/header_test.jpg')" class="mt-10">
+    <br><br>
+    <span class="text-5xl flex justify-center text-gray-200">ASC Actus</span>
+    <br><br>
+    <span class="text-3xl flex justify-center text-gray-200">Toute l'actualité sur l'Amiens Sporting Club</span>
+    <br><br><br>
+</section>
+
+<!-- Section d'accès aux joueurs -->
+<section style="background-color: #5e0000;">
+    <br><br><br>
+
+    <div class="flex justify-center ">
+        <!-- Rendre cliquable aussi ? -->
+        <div class="text-2xl mr-20 mt-20">
+            <span class="text-gray-200 font-bold">Prénom et NOM</span> 
+        </div>
+
+        <div class="flex justify-end ml-20">
+            <!-- Cliquer pour aller à la page de joueurs -->
+            <a href=""><img src="img/Mathis_LACHUER.jpg" alt="Image de test" class="h-80 w-80 rounded-full"></a>
+        </div>
+    </div>
+
+    <br><br><br>
+</section>
+
+<!-- Section accès résultats/classement/calendrier -->
+<section style="background-color: #003f92;">
+    <br><br><br>
+    <br><br><br>
+
+    <div class="flex justify-center">
+        <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+            
+            <img class="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="img/Bordeaux.png" alt="EquipeUne" />
+            <img class="w-24 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg" src="img/Amiens.png" alt="EquipeDeux" />
+            <div class="p-6 flex flex-col justify-start">
+                <span class="text-gray-700 text-base mb-4">
+                Nom équipe une<br> Nom équipe deux
+                </span>
+                <p class="text-gray-600 text-xs">Last updated 3 mins ago</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <a href="#">
+            <img class="rounded-t-lg" src="img/Logo_Amiens_SC_2.png" alt="" />
+        </a>
+        <div class="p-5">
+            <a href="#">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                Calendrier
+                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </a>
+        </div>
+    </div> -->
+    <br><br><br>
+    <br><br><br>
+</section>
+
+
+
+
+<!-- Footer -->
+<footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8">
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <div class="flex items-center mb-4 sm:mb-0">
+            <!-- <img src="img/ASCActus.png" class="h-8 mr-3" alt="ASCActus Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap">ASC Actus</span> -->
+            <h1><span style="color: red;"><i class='bx bxs-chevron-right'></i></span> ASC Actus </h1>
+        </div>
+        <ul class="flex flex-wrap items-center mb-6 text-xl sm:mb-0">
+            <li>
+                <span class = "mr-3 text-lg">Suivez nous :</span>
+            </li>
+            <li class="bg-gray-200 mr-2 rounded-full border-2 border-gray-400 p-2 hover:border-gray-300 hover:bg-gray-100">
+                <a href="#" class="p-1 bx-flashing-hover"><i class='bx bxl-facebook center'></i></a>
+            </li>
+            <li class="bg-gray-200 mr-2 rounded-full border-2 border-gray-400 p-2 hover:border-gray-300 hover:bg-gray-100">
+                <a href="https://twitter.com/" class="p-1 bx-flashing-hover"><i class='bx bxl-twitter' ></i></a>
+            </li>
+            <li class="bg-gray-200 mr-2 rounded-full border-2 border-gray-400 p-2 hover:border-gray-300 hover:bg-gray-100">
+                <a href="https://www.instagram.com/?hl=fr" class="p-1 bx-flashing-hover"><i class='bx bxl-instagram' ></i></a>
+            </li>
+        </ul>
+    </div>
+    <hr class = "my-6 border-gray-400 sm:mx-auto lg:my-8" />
+    <div class = "flex justify-center">
+        <span class="mr-4 text-sm text-gray-600 sm:text-center"> <a href="#" class="hover:text-gray-500">Contactez-nous</a></span>
+        <span class="mr-4 text-sm text-gray-600 sm:text-center hover:text-gray-400"><a href="#" class="hover:text-gray-500">Mentions Légales</a></span>
+        <span class="text-sm text-gray-600 sm:text-center hover:text-gray-400"><a href="#" class="hover:text-gray-500">Politique d'utilisation des cookies</a></span>
+    </div>
+</footer>
+  
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
