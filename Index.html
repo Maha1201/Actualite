@@ -8,7 +8,6 @@
     <title>Accueil</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- <link href='tailwind.css' rel='stylesheet'> -->
 </head>
 
 <body>
@@ -38,11 +37,11 @@
     </nav>
 
     <!-- Section présentation/slogan -->
-    <section style="background-image: url('img/header_pink.jpg')" class="pt-10 bg-cover">
+    <section style="background-image: url('img/headers/aura.jpg')" class="pt-10 bg-cover">
         <br><br>
-        <span class="text-5xl flex justify-center text-rose-800">ASC Actus</span>
+        <span class="text-5xl flex justify-center text-rose-800">Gros Logo</span>
         <br><br>
-        <span class="text-3xl flex justify-center text-rose-800">Toute l'actualité sur l'Amiens Sporting Club</span>
+        <span class="text-3xl flex justify-center text-rose-800">Phrase d'accroche ici imo</span>
         <br><br><br>
     </section>
 
@@ -59,6 +58,7 @@
             <div class="flex justify-end ml-20">
                 <!-- Cliquer pour aller à la page de joueurs -->
                 <a href=""><img src="img/Mathis_LACHUER.jpg" alt="Image de test" class="h-80 w-80 rounded-full"></a>
+                <!-- "transition duration-500 ease-in-out" à revoir -->
             </div>
         </div>
 
@@ -160,8 +160,8 @@
             </div>
 
             <!-- Card des matchs passés -->
-            <a href="#"> <!-- Renvoie vers tous les matchs -->
-                <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg p-6">
+            <a href="#" class="px-4"> <!-- Renvoie vers tous les matchs -->
+                <div class="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg p-12">
 
                     <div class="flex lg:flex-col md:flex-col sm:flex-row">
                         <!-- Col pour superposer les images en lg et md, row pour aligner en sm -->
@@ -183,19 +183,62 @@
 
                 </div>
             </a>
+
+            <!-- Card des matchs à venir -->
+            <div class="flex flex-col rounded-lg bg-white shadow-lg p-6 ml-12">
+
+                <span class="text-gray-700 text-base mb-6">Match à venir : </span>
+
+                <div class="flex flex-row justify-between px-2">
+                    <img class="w-24" src="img/Bordeaux.png" alt="EquipeUne" />
+                    <span class="text-gray-700 text-base mt-6">21:00<br></span>
+                    <img class="w-24" src="img/Amiens.png" alt="EquipeDeux" />
+                </div>
+
+                <div class="p-6 flex flex-row justify-between">
+                    <span class="text-gray-700 text-base pr-10">Nom équipe<br></span>
+                    <span class="text-gray-700 text-base">Nom équipe</span>
+                </div>
+
+            </div>
         </div>
         <br><br><br><br>
+    </section>
+
+    <!-- Réseaux sociaux de l'équipe et ? -->
+    <section style="background-image: url('img/headers/pinkback.jpg')" class="bg-cover">
+        <div>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <ul class="flex justify-start ml-60 text-3xl">
+                <li
+                    class="bg-rose-300 mr-8 mb-8 rounded-full border-2 border-rose-400 p-2 hover:border-rose-300 hover:bg-rose-300">
+                    <a href="#" class="p-1 bx-flashing-hover"><i class='bx bxl-facebook center'
+                            style='color:#9f1239'></i></a>
+                </li>
+                <li
+                    class="bg-rose-300 mr-8 mb-8 rounded-full border-2 border-rose-400 p-2 hover:border-rose-300 hover:bg-rose-300">
+                    <a href="https://twitter.com/" class="p-1 bx-flashing-hover"><i class='bx bxl-twitter'
+                            style='color:#9f1239'></i></a>
+                </li>
+                <li
+                    class="bg-rose-300 mb-8 rounded-full border-2 border-rose-400 p-2 hover:border-rose-300 hover:bg-rose-300">
+                    <a href="https://www.instagram.com/?hl=fr" class="p-1 bx-flashing-hover"><i class='bx bxl-instagram'
+                            style='color:#9f1239'></i></a>
+                </li>
+            </ul>
+        </div>
     </section>
 
 
 
 
     <!-- Footer -->
+
     <footer class="p-4 bg-rose-200 rounded-lg shadow md:px-6 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
             <div class="flex items-center mb-4 sm:mb-0">
                 <!-- <img src="img/ASCActus.png" class="h-8 mr-3" alt="ASCActus Logo" />
-            <span class="self-center text-2xl font-semibold whitespace-nowrap">ASC Actus</span> -->
+                <span class="self-center text-2xl font-semibold whitespace-nowrap">ASC Actus</span> -->
                 <h1 class="text-rose-800 font-semibold"><span style="color: red;"><i
                             class='bx bxs-chevron-right'></i></span> ASC
                     Actus </h1>
