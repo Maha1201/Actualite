@@ -21,7 +21,7 @@
     <!-- Temporaire !! faire un burger sur une page à part -->
     <nav class="flex items-center justify-between flex-wrap bg-rose-200 p-10">
         <div class="flex items-center flex-shrink-0 text-rose-800 mr-6">
-            <span class="font-bold text-xl tracking-tight">ASC Actus</span>
+            <a href="Index.php"><span class="font-bold text-xl tracking-tight">Logo</span></a>
         </div>
 
         <div class="lg:flex lg:items-center lg:w-auto">
@@ -81,7 +81,6 @@
 
 
 <script src="script.js"></script>
-<script src="tailwind.config.js"></script>
 <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 
