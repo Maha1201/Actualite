@@ -18,7 +18,7 @@
     <!-- <div class="w-full px-64 mx-auto"> -->
 
 
-    <!-- Temporaire !! faire un burger sur une page à part -->
+    <!-- Navbar en burger, s'ouvre OnClick -->
     <nav class="flex items-center justify-between flex-wrap bg-rose-200 p-10">
         <div class="flex items-center flex-shrink-0 text-rose-800 mr-6">
             <a href="Index.php"><span class="font-bold text-xl tracking-tight">Logo</span></a>
@@ -26,10 +26,9 @@
 
         <div class="lg:flex lg:items-center lg:w-auto">
             <div>
-                <a href="#"
-                    class="block text-2xl text-rose-100 inline-block mt-0 hover:text-white bg-rose-800 hover:bg-rose-700 px-5 py-2 rounded-full"><i class='bx bx-menu'></i></a>
+                <button class="block text-xl text-rose-100 inline-block mt-0 hover:text-white bg-rose-800 hover:bg-rose-700 px-5 py-2 rounded-full" id="burger"><i class='bx bx-menu'></i></button>
             </div>
-            <?php //include('Page_Navbar.html'); ?>
+            <div id="sidemenu" class="invisible"><?php include('Page_Navbar.html'); ?></div>
         </div>
     </nav>
 

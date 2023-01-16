@@ -24,7 +24,7 @@
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
             <div class="text-base lg:flex-grow">
                 <a href="#" class="block text-rose-800 lg:inline-block lg:mt-0 hover:text-rose-500 mr-5">Actualités</a>
-                <a href="#" class="block text-rose-800 lg:inline-block lg:mt-0 hover:text-rose-500 mr-5">Équipe</a>
+                <a href="Equipe.php" class="block text-rose-800 lg:inline-block lg:mt-0 hover:text-rose-500 mr-5">Équipe</a>
                 <a href="#" class="block text-rose-800 lg:inline-block lg:mt-0 hover:text-rose-500 mr-5">Évènements</a>
                 <a href="#" class="block text-rose-800 lg:inline-block lg:mt-0 hover:text-rose-500">Contact</a>
             </div>
@@ -59,7 +59,7 @@
 
             <!-- Rendre cliquable aussi ? -->
             <div class="text-4xl mt-20">
-                <a href="#"><span class="text-rose-800 font-bold hover:underline underline-offset-8">Voir le club</span></a>
+                <a href="Equipe.php"><span class="text-rose-800 font-bold hover:underline underline-offset-8">Voir le club</span></a>
             </div>
 
         </div>
