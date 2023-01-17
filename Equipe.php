@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S'inscrire</title>
+    <title>Equipe</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href='style.css' rel='stylesheet'>
@@ -32,125 +32,125 @@
         </div>
     </nav>
 
-<!-- Attaquants -->
-<section class="text-rose-800 border-b-2 border-rose-300">
-    <div class="text-3xl font-bold flex justify-center mt-10">Attaquants</div>
-    <!-- Flex wrap pour que les divs aillent à la ligne -->
-    <div class="flex flex-row flex-wrap justify-center m-8">
-        <div class="mr-24">
-            <a href="#">
-                <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Antoine LEAUTEY
+    <!-- Attaquants -->
+    <section class="text-rose-800 border-b-2 border-rose-300">
+        <div class="text-3xl font-bold flex justify-center mt-10">Attaquants</div>
+        <!-- Flex wrap pour que les divs aillent à la ligne -->
+        <div class="flex flex-row flex-wrap justify-center m-8">
+            <div class="mr-24">
+                <a href="#">
+                    <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Antoine LEAUTEY
+                </div>
+            </div>
+            <div class="mr-24">          
+                <a href="#">
+                    <img src="img/Ange_CHIBOZO.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Ange CHIBOZO
+                </div>
+            </div>
+            <div class="mr-24">          
+                <a href="#">
+                    <img src="img/Jeremy_GELIN.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Jeremy GELIN
+                </div>
+            </div>
+            <div class="mr-24">          
+                <a href="#">
+                    <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Antoine LEAUTEY
+                </div>
             </div>
         </div>
-        <div class="mr-24">          
-            <a href="#">
-                <img src="img/Ange_CHIBOZO.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Ange CHIBOZO
-            </div>
-        </div>
-        <div class="mr-24">          
-            <a href="#">
-                <img src="img/Jeremy_GELIN.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Jeremy GELIN
-            </div>
-        </div>
-        <div class="mr-24">          
-            <a href="#">
-                <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Antoine LEAUTEY
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Défenseurs -->
-<section class="text-rose-800 border-b-2 border-rose-300">
-    <div class="text-3xl font-bold flex justify-center mt-10">Défenseurs</div>
-    <!-- Flex wrap pour que les divs aillent à la ligne -->
-    <div class="flex flex-row flex-wrap justify-center m-8">
-        <div class="mr-24">
-            <a href="#">
-                <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Antoine LEAUTEY
+    <!-- Défenseurs -->
+    <section class="text-rose-800 border-b-2 border-rose-300">
+        <div class="text-3xl font-bold flex justify-center mt-10">Défenseurs</div>
+        <!-- Flex wrap pour que les divs aillent à la ligne -->
+        <div class="flex flex-row flex-wrap justify-center m-8">
+            <div class="mr-24">
+                <a href="#">
+                    <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Antoine LEAUTEY
+                </div>
+            </div>
+            <div class="mr-24">          
+                <a href="#">
+                    <img src="img/Ange_CHIBOZO.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Ange CHIBOZO
+                </div>
+            </div>
+            <div class="mr-24">          
+                <a href="#">
+                    <img src="img/Jeremy_GELIN.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Jeremy GELIN
+                </div>
+            </div>
+            <div class="mr-24">          
+                <a href="#">
+                    <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Antoine LEAUTEY
+                </div>
             </div>
         </div>
-        <div class="mr-24">          
-            <a href="#">
-                <img src="img/Ange_CHIBOZO.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Ange CHIBOZO
-            </div>
-        </div>
-        <div class="mr-24">          
-            <a href="#">
-                <img src="img/Jeremy_GELIN.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Jeremy GELIN
-            </div>
-        </div>
-        <div class="mr-24">          
-            <a href="#">
-                <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Antoine LEAUTEY
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<!-- Gardiens -->
-<section class="text-rose-800">
-    <div class="text-3xl font-bold flex justify-center mt-10">Gardiens</div>
-    <!-- Flex wrap pour que les divs aillent à la ligne -->
-    <div class="flex flex-row flex-wrap justify-center m-8">
-        <div class="mr-24">
-            <a href="#">
-                <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Antoine LEAUTEY
+    <!-- Gardiens -->
+    <section class="text-rose-800">
+        <div class="text-3xl font-bold flex justify-center mt-10">Gardiens</div>
+        <!-- Flex wrap pour que les divs aillent à la ligne -->
+        <div class="flex flex-row flex-wrap justify-center m-8">
+            <div class="mr-24">
+                <a href="#">
+                    <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Antoine LEAUTEY
+                </div>
+            </div>
+            <div class="mr-24">          
+                <a href="#">
+                    <img src="img/Ange_CHIBOZO.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Ange CHIBOZO
+                </div>
+            </div>
+            <div class="mr-24">          
+                <a href="#">
+                    <img src="img/Jeremy_GELIN.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Jeremy GELIN
+                </div>
+            </div>
+            <div class="mr-24">          
+                <a href="#">
+                    <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
+                </a>
+                <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
+                    Antoine LEAUTEY
+                </div>
             </div>
         </div>
-        <div class="mr-24">          
-            <a href="#">
-                <img src="img/Ange_CHIBOZO.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Ange CHIBOZO
-            </div>
-        </div>
-        <div class="mr-24">          
-            <a href="#">
-                <img src="img/Jeremy_GELIN.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Jeremy GELIN
-            </div>
-        </div>
-        <div class="mr-24">          
-            <a href="#">
-                <img src="img/Antoine_LEAUTEY.jpg" alt="joueur random" class="h-96 rounded-lg">
-            </a>
-            <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
-                Antoine LEAUTEY
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 
