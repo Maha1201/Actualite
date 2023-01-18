@@ -37,7 +37,7 @@
 
 
         <!-- Attaquants -->
-        <section class="text-rose-800 border-b-2 border-rose-300">
+    <section class="text-rose-800 border-b-2 border-rose-300">
         <div class="text-3xl font-bold flex justify-center mt-10">Attaquants</div>
         <!-- Flex wrap pour que les divs aillent à la ligne -->
         <div class="flex flex-row flex-wrap justify-center m-8">
@@ -50,17 +50,17 @@
                 </div>
             </div>
             <div class="mr-24">          
-                <a href="#">
+                <button onclick="toggleModal('modal-id')">
                     <img src="img/Ange_CHIBOZO.jpg" alt="joueur random" class="h-96 rounded-lg">
-                </a>
+                </button>
                 <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
                     Ange CHIBOZO
                 </div>
             </div>
             <div class="mr-24">          
-                <a href="#">
+                <button onclick="toggleModal('modal-id')">
                     <img src="img/Jeremy_GELIN.jpg" alt="joueur random" class="h-96 rounded-lg">
-                </a>
+                </button>
                 <div class="text-2xl font-semibold mt-4 flex justify-center mb-4">
                     Jeremy GELIN
                 </div>
@@ -69,37 +69,73 @@
 
 
 
-
-
-    <button class="bg-pink-400 text-white active:bg-pink-500 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none mr-1 mb-1 ease-linear transition-all duration-300" type="button" onclick="toggleModal('modal-id')">
-        Bouton
-    </button>
-
-    <div class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-id">
-        <div class="relative w-auto my-6 mx-auto max-w-3xl">
-            <!--content-->
-            <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                <!--header-->
-                <div class="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
+    <div class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 justify-center items-center" id="modal-id">
+        <div class="relative w-auto my-6 mx-auto"> <!-- max-w-3xl pour limiter la largeur -->
+            <!--Contenu-->
+            <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-rose-50">
+                <!--Header-->
+                <div class="flex items-start p-5 border-b border-solid border-rose-200 rounded-t">
                     <h3 class="text-3xl font-semibold">
                     Prénom NOM
                     </h3>
-                    <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="toggleModal('modal-id')">
-                        <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                            <i class='bx bx-x'></i>
-                        </span>
-                    </button>
                 </div>
-                <!--body-->
-                <div class="relative p-6 flex-auto">
-                    <p class="my-4 text-slate-500 text-lg leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, atque reprehenderit corrupti neque velit repellendus!
-                    </p>
+                <!--Body-->
+                <div class="relative p-6 flex-auto flex flex-row">
+
+                    <div class="relative">
+                        <ul class="mr-4 text-lg">
+                            <li class="bg-red-200 border-2 border-red-800 mb-4 p-2 py-4">
+                                Match(s) joué(s) :
+                                <div class="flex justify-center py-4 border-t-2 border-red-800">
+                                    85
+                                </div>
+                            </li>
+                            <li class="bg-red-200 border-2 border-red-800 mb-4 p-2 py-4">
+                                But(s) marqué(s) :
+                                <div class="flex justify-center py-4 border-t-2 border-red-800">
+                                    85
+                                </div>
+                            </li>
+                            <li class="bg-red-200 border-2 border-red-800 p-2">
+                                Minute(s) jouée(s) :
+                                <div class="flex justify-center py-4 border-t-2 border-red-800">
+                                    85
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <img src="img/Antoine_LEAUTEY.jpg" alt="Image du joueur choisi" class="h-96">
+
+                    <div class="relative">
+                        <ul class="ml-4 text-lg">
+                            <li class="bg-red-200 border-2 border-red-800 mb-4 p-2">
+                                Carton(s) jaune(s) <br>
+                                et/ou rouge(s) :
+                                <div class="flex justify-center py-4 border-t-2 border-red-800">
+                                    0
+                                </div>
+                            </li>
+                            <li class="bg-red-200 border-2 border-red-800 mb-4 p-2">
+                                Tir(s) cadré(s) :
+                                <div class="flex justify-center py-4 border-t-2 border-red-800">
+                                    85
+                                </div>
+                            </li>
+                            <li class="bg-red-200 border-2 border-red-800 p-2">
+                                Passe(s) :
+                                <div class="flex justify-center py-4 border-t-2 border-red-800">
+                                    85
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
-                <!--footer-->
-                <div class="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
-                    <button class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="toggleModal('modal-id')">
-                    Close
+                <!--Footer-->
+                <div class="flex items-center justify-end p-6 border-t border-solid border-rose-200 rounded-b">
+                    <button class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="toggleModal('modal-id')">
+                    <i class='bx bx-x text-lg'></i>Fermer                
                     </button>
                 </div>
             </div>
